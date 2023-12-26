@@ -1,0 +1,1 @@
+Modified version of Early-stopping-pytorch from: https://github.com/Bjarten/early-stopping-pytorch/tree/master

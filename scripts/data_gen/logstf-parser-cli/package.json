@@ -1,0 +1,35 @@
+{
+  "name": "logstf-parser-cli",
+  "version": "1.0.2",
+  "description": "CLI for parsing logs",
+  "bin": {
+    "start-server": "./src/start_server.js"
+  },
+  "scripts": {
+    "debug-parse": "node ./src/parse_log.js",
+    "debug-server": "node ./src/start_server.js"
+  },
+  "keywords": [
+    "logs.tf",
+    "tf2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheBv/logstf-parser-cli.git"
+  },
+  "pkg": {
+    "scripts": "./src"
+  },
+  "author": "Bv",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^6.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jszip": "^3.10.0",
+    "logstf-parser": "^1.4.0",
+    "node-worker-threads-pool": "^1.5.1"
+  }
+}

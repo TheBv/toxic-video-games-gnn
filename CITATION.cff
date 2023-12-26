@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Schrottenbacher"
+  given-names: "Patrick"
+  orcid: https://orcid.org/0009-0003-7644-0037
+title: "Identifying toxic behaviour in online games"
+version: 0.1
+date-released: TBD
+url: "https://github.com/thebv/toxic-video-games-gnn"

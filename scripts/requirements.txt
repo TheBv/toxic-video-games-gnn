@@ -1,0 +1,16 @@
+aiohttp==3.8.5
+detoxify==0.5.1
+lingua==4.15.0
+numpy==1.24.3
+pymongo==4.3.3
+torch==2.0.1+cu118
+torch_geometric==2.3.1
+matplotlib==3.7.1
+scikit_learn==1.2.2
+torchmetrics==1.0.2
+seaborn
+pandas
+tensorflow
+stellargraph
+gensim
+networkx
