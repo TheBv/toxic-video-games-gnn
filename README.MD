@@ -1,3 +1,7 @@
+![GitHub License](https://img.shields.io/github/license/TheBv/toxic-video-games-gnn)
+![GitHub release (with filter)](https://img.shields.io/github/v/release/TheBv/toxic-video-games-gnn)
+[![Thesis](http://img.shields.io/badge/Thesis-Identifying_toxic_behaviour_in_online_games-fb44ce.svg)](https://publikationen.ub.uni-frankfurt.de/files/81676/Toxic_video_game_classification.pdf)
+
 # Identifying Toxic Video Game Matches with GNN
 Repository for the bachelor thesis "Identifying toxic behaviour in online games".
 This thesis introduces a way to represent a given video game match as an event graph and using Graph Neural Networks (GNNs) to train a model to detect toxic behaviour in a given match.
@@ -25,4 +29,15 @@ Annotation: Dataset based on roughly 1000 human annotated matches.
 Annotation-Enhanced: Dataset based on human annotated matches enhanced with a player graph with weights representing the amount of times they play with eachother.
 
 ## Citation
-TBD
+```
+@misc{Schrottenbacher2024,
+  author    = {Patrick Schrottenbacher},
+  title     = {Identifying toxic behaviour in online games},
+  institution = {Informatik und Mathematik},
+  type      = {bachelorthesis},
+  pages     = {35},
+  year        = {2024},
+  url       = {https://publikationen.ub.uni-frankfurt.de/files/81676/Toxic_video_game_classification.pdf}
+  repository = {https://github.com/TheBv/toxic-video-games-gnn}
+}
+```
